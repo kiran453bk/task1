@@ -9,7 +9,7 @@ class MainCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: EdgeInsets.only(
+      padding: const EdgeInsets.only(
         top: 825,
       ),
       scrollDirection: Axis.vertical,
